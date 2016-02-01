@@ -52,3 +52,4 @@ C:\Users\19264\Documents\GitHub\Taxonspot\WebApplication1\bin\Microsoft.Owin.Sec
 C:\Users\19264\Documents\GitHub\Taxonspot\WebApplication1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\19264\Documents\GitHub\Taxonspot\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\19264\Documents\GitHub\Taxonspot\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\19264\Documents\GitHub\Taxonspot\WebApplication1\obj\Debug\TaxOnSpot.csprojResolveAssemblyReference.cache
