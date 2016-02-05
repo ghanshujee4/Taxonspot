@@ -1,12 +1,24 @@
 ﻿@model IEnumerable<WebApplication1.Tax_Table>
+@using Microsoft.AspNet.Identity
 
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var token1 = User.ToString();
+    if 
+       (token1 == null)
+   {
+       Response.Redirect("~/Home/Index");
+   }
+
+   
 }
 
-<h2>Index</h2>
+<br />
 
+<h2>DASHBOARD</h2>
+<p class="text-success">@ViewBag.StatusMessage</p>
+<p>You're logged in as <strong>@User.Identity.GetUserName()</strong>.</p>
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
@@ -43,6 +55,7 @@
         </th>
         <th></th>
     </tr>
+
 
 @foreach (var item in Model) {
     <tr>

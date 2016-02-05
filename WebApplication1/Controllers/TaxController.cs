@@ -7,14 +7,32 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using WebApplication1;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.Owin.Security;
+using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
     public class TaxController : Controller
     {
+        public TaxController()
+            : this(new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new ApplicationDbContext())))
+        {
+        }
+
+        public TaxController(UserManager<ApplicationUser> userManager)
+        {
+            // TODO: Complete member initialization
+            this.userManager = userManager;
+        }
         private TaxEntities db = new TaxEntities();
+        private UserManager<ApplicationUser> userManager;
+
+        public UserManager<ApplicationUser> UserManager { get; private set; }
 
         // GET: /Tax/
+        [Authorize]
         public ActionResult Index()
         {
             return View(db.Tax_Table.ToList());
@@ -134,5 +152,6 @@ namespace WebApplication1.Controllers
             }
             base.Dispose(disposing);
         }
+       
     }
 }

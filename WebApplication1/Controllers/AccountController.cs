@@ -115,7 +115,7 @@ namespace WebApplication1.Controllers
         }
 
         //
-        // GET: /Account/Manage
+        // GET: /Account/Manage        
         public ActionResult Manage(ManageMessageId? message)
         {
             ViewBag.StatusMessage =

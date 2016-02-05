@@ -52,7 +52,7 @@ input[type="checkbox"].input-validation-error {
     box-shadow: 1px 6px #077BF0;
     content: "";
     border-radius: 0px 10px !important;
-    background: #F2671F;
+    background: #2a6496;
 }
 
 .icon-bar .img-responsive {
