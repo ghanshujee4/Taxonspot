@@ -206,6 +206,7 @@
     <Content Include="images\images %281%29.jpg" />
     <Content Include="images\Individual-Tax-Returns.png" />
     <Content Include="images\Kubuntu_8.04_login_screen.png" />
+    <Content Include="images\socialIcons.png" />
     <Content Include="images\Tax-Audit-Support.png" />
     <Content Include="images\Taxation.jpg" />
     <Content Include="images\taxation.png" />
