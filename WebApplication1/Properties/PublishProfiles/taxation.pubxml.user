@@ -6,266 +6,269 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Users\19264\Desktop\Icons\tax</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\19264\Desktop\Taxonspot-master (1)</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="App_Data/Tax.mdf">
-      <publishTime>02/04/2016 18:56:19</publishTime>
+      <publishTime>02/19/2016 17:40:12</publishTime>
     </File>
     <File Include="App_Data/Tax_log.ldf">
-      <publishTime>02/04/2016 18:56:19</publishTime>
+      <publishTime>02/19/2016 17:40:12</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
-      <publishTime>01/28/2016 10:52:02</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
-      <publishTime>01/28/2016 10:52:05</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/EntityFramework.SqlServer.dll">
-      <publishTime>01/28/2016 10:52:05</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
-      <publishTime>01/28/2016 10:52:07</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
-      <publishTime>01/28/2016 10:52:07</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
-      <publishTime>01/28/2016 10:52:07</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.dll">
-      <publishTime>01/28/2016 10:52:07</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
-      <publishTime>01/28/2016 10:52:07</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
-      <publishTime>01/28/2016 10:52:08</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.dll">
-      <publishTime>01/28/2016 10:52:08</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
-      <publishTime>01/28/2016 10:52:08</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Google.dll">
-      <publishTime>01/28/2016 10:52:08</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
-      <publishTime>01/28/2016 10:52:08</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
-      <publishTime>01/28/2016 10:52:08</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
-      <publishTime>01/28/2016 10:52:08</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
-      <publishTime>01/28/2016 10:52:01</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>01/28/2016 10:52:02</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/Owin.dll">
-      <publishTime>01/28/2016 10:52:07</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
-      <publishTime>01/28/2016 10:52:01</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>01/28/2016 10:52:02</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>01/28/2016 10:52:01</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
-      <publishTime>01/28/2016 10:52:00</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Deployment.dll">
-      <publishTime>01/28/2016 10:52:01</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.dll">
-      <publishTime>01/28/2016 10:52:01</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Razor.dll">
-      <publishTime>01/28/2016 10:52:01</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="bin/WebApplication1.dll">
-      <publishTime>02/04/2016 18:56:18</publishTime>
+      <publishTime>02/19/2016 17:44:24</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
-      <publishTime>01/28/2016 10:52:03</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
-      <publishTime>01/28/2016 10:52:00</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
-      <publishTime>01/28/2016 10:52:00</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>02/04/2016 18:47:06</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="favicon.ico">
-      <publishTime>01/28/2016 10:51:58</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
-      <publishTime>01/28/2016 10:52:00</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.svg">
-      <publishTime>01/28/2016 10:52:00</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>01/28/2016 10:52:00</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff">
-      <publishTime>01/28/2016 10:51:59</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Global.asax">
-      <publishTime>01/28/2016 10:51:58</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="images/Accounting-Purchase-order-icon.png">
-      <publishTime>01/28/2016 10:57:36</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="images/ask.gif">
-      <publishTime>01/28/2016 16:16:05</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="images/Icon_Tax.png">
-      <publishTime>01/28/2016 10:57:36</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="images/images %281%29.jpg">
-      <publishTime>01/28/2016 16:16:45</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="images/Individual-Tax-Returns.png">
-      <publishTime>01/28/2016 10:57:36</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="images/Kubuntu_8.04_login_screen.png">
-      <publishTime>01/28/2016 16:15:41</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
+    </File>
+    <File Include="images/socialIcons.png">
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="images/Tax-Audit-Support.png">
-      <publishTime>01/28/2016 10:57:36</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="images/Taxation.jpg">
-      <publishTime>01/28/2016 16:16:45</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="images/taxation.png">
-      <publishTime>01/28/2016 16:16:45</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>01/28/2016 10:52:09</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
-      <publishTime>01/28/2016 10:51:59</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Scripts/bootstrap.min.js">
-      <publishTime>01/28/2016 10:51:59</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.js">
-      <publishTime>01/28/2016 10:52:00</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.min.js">
-      <publishTime>01/28/2016 10:52:00</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.min.map">
-      <publishTime>01/28/2016 10:52:00</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.js">
-      <publishTime>01/28/2016 10:52:08</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.min.js">
-      <publishTime>01/28/2016 10:52:08</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.unobtrusive.js">
-      <publishTime>01/28/2016 10:52:09</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.unobtrusive.min.js">
-      <publishTime>01/28/2016 10:52:08</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Scripts/modernizr-2.6.2.js">
-      <publishTime>01/28/2016 10:52:02</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Scripts/respond.js">
-      <publishTime>01/28/2016 10:52:03</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Scripts/respond.min.js">
-      <publishTime>01/28/2016 10:52:03</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Scripts/zozo.accordion.min.js">
-      <publishTime>01/29/2016 18:45:41</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Scripts/_references.js">
-      <publishTime>01/28/2016 15:05:32</publishTime>
+      <publishTime>02/19/2016 17:44:04</publishTime>
     </File>
     <File Include="Tax_EntityDataModel.edmx.diagram">
-      <publishTime>02/01/2016 13:29:58</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
-      <publishTime>01/28/2016 10:52:04</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Account/ExternalLoginFailure.cshtml">
-      <publishTime>01/28/2016 10:52:04</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Account/Login.cshtml">
-      <publishTime>01/28/2016 10:52:04</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Account/Manage.cshtml">
-      <publishTime>01/28/2016 10:52:04</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Account/Register.cshtml">
-      <publishTime>01/28/2016 10:52:04</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Account/_ChangePasswordPartial.cshtml">
-      <publishTime>01/28/2016 10:52:04</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
-      <publishTime>01/28/2016 10:52:04</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Account/_RemoveAccountPartial.cshtml">
-      <publishTime>01/28/2016 10:52:04</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Account/_SetPasswordPartial.cshtml">
-      <publishTime>01/28/2016 10:52:04</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
-      <publishTime>01/29/2016 11:40:52</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Home/Contact.cshtml">
-      <publishTime>01/28/2016 10:51:58</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>02/04/2016 18:54:34</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
-      <publishTime>01/28/2016 10:52:04</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>02/04/2016 18:44:56</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
-      <publishTime>01/28/2016 10:52:04</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Tax/Create.cshtml">
-      <publishTime>02/02/2016 18:22:36</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Tax/Delete.cshtml">
-      <publishTime>02/01/2016 18:26:32</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Tax/Details.cshtml">
-      <publishTime>02/01/2016 13:34:25</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Tax/Edit.cshtml">
-      <publishTime>02/01/2016 13:34:26</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Tax/Index.cshtml">
-      <publishTime>02/04/2016 18:17:50</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/Web.config">
-      <publishTime>01/28/2016 10:51:58</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
-      <publishTime>01/28/2016 10:51:58</publishTime>
+      <publishTime>02/09/2016 03:55:16</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>02/04/2016 18:56:19</publishTime>
+      <publishTime>02/19/2016 17:44:25</publishTime>
     </File>
   </ItemGroup>
 </Project>

@@ -20,13 +20,13 @@
                 </button>
                 @Html.ActionLink("Application name", "Index", "Home", null, new { @class = "navbar-brand" })
             </div>
-            <div class="col-sm-5 icon-bar">
+            <div class="col-sm-5 icon-bar" style="padding-top:8px;">
 
-                <img class="img-responsive" src="~/images/Accounting-Purchase-order-icon.png" />
-                <img class="img-responsive" src="~/images/Individual-Tax-Returns.png" />
+                <img class="img-responsive socialIconimg" src="~/images/socialIcons.png" />
+                @*<img class="img-responsive" src="~/images/Individual-Tax-Returns.png" />
                 <img class="img-responsive" src="~/images/Icon_Tax.png" />
-                <img class="img-responsive" src="~/images/Tax-Audit-Support.png" />
-                <button onclick="location.href = '../tax/create';" class="btn btn-default btn-info" >Client Registeration</button>
+                <img class="img-responsive" src="~/images/Tax-Audit-Support.png" />*@
+                <button onclick="location.href = '../tax/create';" class="btn btn-default btn-info pull-right" >Client Registration</button>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -35,7 +35,7 @@
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                     <li>
                         <div class="dropdown">
-                            <a href="#" data-toggle="dropdown" class="dropdown-toggle" style="padding:5px"> Dropdown <b class="caret"></b></a>
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle" style="padding:15px"> Dropdown <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Action</a></li>
                                 <li><a href="#">Another action</a></li>

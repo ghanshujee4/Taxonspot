@@ -1,5 +1,5 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 65px;
     padding-bottom: 20px;
 }
 
@@ -64,15 +64,26 @@ input[type="checkbox"].input-validation-error {
 .navbar-inverse .navbar-nav > li > a {
     color: #160A47;
 }
-
 .navbar-inverse .navbar-nav > li > div > a {
     color: #160A47;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,.navbar-inverse .navbar-nav > li > a:focus,.navbar-inverse .navbar-nav > li > a:active,.navbar-inverse .navbar-nav > li > div > a:hover, .navbar-inverse .navbar-nav > li > div > a:active, .navbar-inverse .navbar-nav > li > div > a:focus {
+  background-color: #428bca;
+    border-color: #357ebd;
+    border-radius:15px;
+}
+.socialIconimg{
+        min-width: 160px;
+        height: 45px !important;
+        padding: 5px;
+
 }
 
     .nav .open > a, .nav .open > a:hover, .nav .open > a:focus, .navbar-inverse .navbar-nav > li > a:active, .navbar-inverse .navbar-nav > li > div > a:hover, .navbar-inverse .navbar-nav > li > div > a:active, .navbar-inverse .navbar-nav > li > div > a:focus {
         text-decoration: none;
         color: #fff;
-        background-color: transparent;
+       
     }
 
 .jumbotron {
@@ -2835,6 +2846,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
             height: auto !important;
             padding-bottom: 0;
             overflow: visible !important;
+            padding-top:3px;
         }
 
         .navbar-collapse.in {

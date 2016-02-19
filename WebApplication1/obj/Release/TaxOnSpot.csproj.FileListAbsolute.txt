@@ -50,6 +50,6 @@ C:\Users\19264\Documents\GitHub\Taxonspot\WebApplication1\bin\Microsoft.Owin.Sec
 C:\Users\19264\Documents\GitHub\Taxonspot\WebApplication1\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\19264\Documents\GitHub\Taxonspot\WebApplication1\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\19264\Documents\GitHub\Taxonspot\WebApplication1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\19264\Documents\GitHub\Taxonspot\WebApplication1\obj\Release\TaxOnSpot.csprojResolveAssemblyReference.cache
 C:\Users\19264\Documents\GitHub\Taxonspot\WebApplication1\obj\Release\WebApplication1.dll
 C:\Users\19264\Documents\GitHub\Taxonspot\WebApplication1\obj\Release\WebApplication1.pdb
-C:\Users\19264\Documents\GitHub\Taxonspot\WebApplication1\obj\Release\TaxOnSpot.csprojResolveAssemblyReference.cache
