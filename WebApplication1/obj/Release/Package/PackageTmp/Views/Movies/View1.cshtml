@@ -1,0 +1,40 @@
+﻿@model TaxonspotMVC.Models.MovieDB
+
+@{
+    ViewBag.Title = "View1";
+}
+@using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl }))
+{
+
+<h2>View1</h2>
+<div class="editor-label">
+    @Html.LabelFor(model => model.PAN)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.PAN)
+    @Html.ValidationMessageFor(model => model.PAN)
+</div>
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.Mobile)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.Mobile)
+    
+</div>
+<div class="editor-label">
+    <input type="submit" value="Log in" />
+</div>
+  <div>  @Html.ActionLink("Register", "Create") if you don't have an account.</div>
+}
+    <section class="social" id="socialLoginForm">
+    <h2>Use another service to log in.</h2>
+    @Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl })
+</section>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
+

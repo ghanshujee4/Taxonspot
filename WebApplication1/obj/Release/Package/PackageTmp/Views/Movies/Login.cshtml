@@ -1,0 +1,61 @@
+﻿@model TaxonspotMVC.Models.UserDB
+
+@{
+    ViewBag.Title = " client'S Login";
+}
+
+<h2>Login</h2>
+
+@using (Html.BeginForm("Login", "Movies", FormMethod.Post))
+{
+    //this  is for create form tag
+    @Html.AntiForgeryToken()          // this is for prevent CSRF attack
+                                    @Html.ValidationSummary(true)
+    if (@ViewBag.Message != null)
+    {
+        <div style="border: 1px solid red">
+            @ViewBag.Message
+        </div>
+    }
+
+    <fieldset>
+        <legend>MovieDB</legend>
+        <div class="form-group">
+            <div class="col-sm-2 required ">
+                @Html.LabelFor(model => model.PAN)
+            </div>
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.PAN)
+
+                @Html.ValidationMessageFor(model => model.PAN)
+            </div>
+        </div>
+        <br />
+
+        <div class="form-group">
+            <div class="col-sm-2 required ">
+                @Html.LabelFor(model => model.Password)
+            </div>
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.Password)
+
+                @Html.ValidationMessageFor(model => model.Password)
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="form-group">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-10">
+                <input type="submit" value="Login" />
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="col-sm-12">
+            <p>
+                @Html.ActionLink("Register", "Create") if you don't have an account (For Clients).
+            </p>
+        </div>
+    </fieldset>
+}

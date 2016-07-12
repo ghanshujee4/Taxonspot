@@ -1,0 +1,109 @@
+﻿@model TaxonspotMVC.Models.MovieDB
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>MovieDB</legend>
+        <div class="form-group">
+            <div class="col-sm-2 required ">
+                @Html.LabelFor(model => model.PAN)
+            </div>
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.PAN)
+         
+                @Html.ValidationMessageFor(model => model.PAN)
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <div class="col-sm-2 required ">
+                @Html.LabelFor(model => model.DOB)
+            </div>
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.DOB, "{0:dd/MM/yyyy}")
+            
+                @Html.ValidationMessageFor(model => model.DOB)
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <div class="col-sm-2 required ">
+                @Html.LabelFor(model => model.Name)
+            </div>
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.Name)
+             
+                @Html.ValidationMessageFor(model => model.Name)
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <div class="col-sm-2 required ">
+                @Html.LabelFor(model => model.FName)
+            </div>
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.FName)
+              
+                @Html.ValidationMessageFor(model => model.FName)
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <div class="col-sm-2 required ">
+                @Html.LabelFor(model => model.Mobile)
+            </div>
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.Mobile)
+     
+                @Html.ValidationMessageFor(model => model.Mobile)
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <div class="col-sm-2 required ">
+                @Html.LabelFor(model => model.Address)
+            </div>
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.Address)
+          
+                @Html.ValidationMessageFor(model => model.Address)
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <div class="col-sm-2 required ">
+                @Html.LabelFor(model => model.Password)
+            </div>
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.Password)
+
+                @Html.ValidationMessageFor(model => model.Password)
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="form-group">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-10">
+                <input type="submit" value="Create" />
+            </div>
+        </div>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

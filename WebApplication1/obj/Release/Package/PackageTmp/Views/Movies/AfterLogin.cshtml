@@ -1,0 +1,125 @@
+﻿@model TaxonspotMVC.Models.MovieDB
+
+@{
+    ViewBag.Title = "AfterLogin";
+}
+
+<h2>AfterLogin</h2>
+
+@if (Session["LogedUserFullname"] != null)
+{
+    <text>
+        Welcome <a href=""> @Session["LogedUserFullname"].ToString()</a>
+        <br />
+        Your ID :
+        @Session["LogedUserID"].ToString()
+    </text>
+
+    <fieldset>
+
+        <legend>MovieDB</legend>
+        <button class="accordion">Your Details</button>
+        <div class="panel">
+            <div class="form-group">
+                <div class="display-label col-sm-3 ">
+                    @Html.DisplayNameFor(model => model.PAN)
+                </div>
+                <div class="display-field col-sm-4">
+                    @Session["LogedUserID"].ToString()
+                </div>
+            </div>
+            <br />
+            <div class="form-group">
+                <div class="display-label col-sm-3">
+                    @Html.DisplayNameFor(model => model.DOB)
+                </div>
+                <div class="display-field col-sm-4">
+                    @Html.DisplayFor(model => model.DOB)
+                </div>
+            </div>
+            <br />
+            <div class="form-group">
+                <div class="display-label col-sm-3">
+                    @Html.DisplayNameFor(model => model.Name)
+                </div>
+                <div class="display-field col-sm-4">
+                    @Html.DisplayFor(model => model.Name)
+                </div>
+            </div>
+            <br />
+            <div class="form-group">
+                <div class="display-label col-sm-3">
+                    @Html.DisplayNameFor(model => model.FName)
+                </div>
+                <div class="display-field col-sm-4 ">
+                    @Html.DisplayFor(model => model.FName)
+                </div>
+            </div>
+            <br />
+            <div class="form-group">
+                <div class="display-label col-sm-3">
+                    @Html.DisplayNameFor(model => model.Mobile)
+                </div>
+                <div class="display-field col-sm-4">
+                    @Html.DisplayFor(model => model.Mobile)
+                </div>
+                </div>
+            <br />
+                <div class="form-group">
+                    <div class="display-label col-sm-3">
+                        @Html.DisplayNameFor(model => model.Address)
+                    </div>
+                    <div class="display-field col-sm-4">
+                        @Html.DisplayFor(model => model.Address)
+                    </div>
+                </div>
+            </div>
+        <button class="accordion">VAT Detail</button>
+        <div class="panel">
+            @*<div class="form-group">
+                <div class="col-sm-2 required ">
+                    @Html.LabelFor(model => model.VAT)
+                </div>
+                <div class="col-sm-2">
+                    @Html.EditorFor(model => model.VAT)
+
+                    @Html.ValidationMessageFor(model => model.VAT)
+                </div>
+            </div>
+            <br />
+            <div class="form-group">
+                <div class="col-sm-2 required ">
+                    @Html.LabelFor(model => model.RegistrationDate)
+                </div>
+                <div class="col-sm-12">
+                    @Html.EditorFor(model => model.RegistrationDate, "{0:dd/MM/yyyy}")
+
+                    @Html.ValidationMessageFor(model => model.RegistrationDate)
+                </div>
+            </div>
+        
+            <div class="form-group">
+                <div class="col-sm-2 required ">
+                    @Html.LabelFor(model => model.Properiter)
+                </div>
+                <div class="col-sm-2">
+                    @Html.EditorFor(model => model.Properiter)
+
+                    @Html.ValidationMessageFor(model => model.Properiter)
+                </div>
+            </div>*@
+        </div>
+
+        <button class="accordion">Account Details</button>
+        <div class="panel">
+            <p>Lorem ipsum...</p>
+        </div>
+
+        <button class="accordion">Other Details</button>
+        <div class="panel">
+            <p>Lorem ipsum...</p>
+        </div>
+    </fieldset>
+}
+
+<script src="~/Scripts/accordian.js"></script>

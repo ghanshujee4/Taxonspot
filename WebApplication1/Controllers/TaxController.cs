@@ -82,7 +82,7 @@ namespace WebApplication1.Controllers
 
             catch (Exception ex)
             {
-                return View("Error", new HandleErrorInfo(ex, "Tax_Table", "Create"));
+                return View( new HandleErrorInfo(ex, "Tax_Table", "Create"));
             }
         }
         // GET: /Tax/Edit/5
